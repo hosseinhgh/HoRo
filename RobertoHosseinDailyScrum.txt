@@ -56,3 +56,39 @@ Hossein Ghaffary
 2.How do i solve it?
 3.how do i do it?
 /////////////////////////////////////
+
+11/09/2017
+
+Roberto Rubio
+1 What did i do since last Scrum?
+	user registration
+2 What do i do now?
+	problems with integrating te components
+3 where do i need help from my teacher and my teammate or internet?
+	i erase my projects from my netbeans so we can restat with al the new modifications, and nothing
+	is working we lost some important code
+ 
+1.What do i do about it?
+	not solved
+2.How do i solve it?
+3.how do i do it?
+
+
+
+Hossein Ghaffary
+
+11/09/2017
+
+1 What did i do since last Scrum?
+	list of users add and delete
+2 What do i do now?
+	problems with integrating te components
+3 where do i need help from my teacher and my teammate or internet?
+	
+
+ 
+1.What do i do about it?
+	not solved
+2.How do i solve it?
+3.how do i do it?
+/////////////////////////////////////
