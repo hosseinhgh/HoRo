@@ -8,5 +8,5 @@ if (false) {
 
 // URL/event handlers go here
 $app->get('/admin/articles/list', function() use ($app) {
-    echo "This is Teacher's Project";
+    echo "This is Exam Online Project";
 });

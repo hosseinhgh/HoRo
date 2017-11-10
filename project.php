@@ -61,7 +61,7 @@ if (!isset($_SESSION['user'])) {
 
 // URL/event handlers go here
 $app->get('/', function() use ($app) {
-    echo "This is Teacher's Project";
+    echo "This examonline project";
 });
 
 require_once 'account.php';
