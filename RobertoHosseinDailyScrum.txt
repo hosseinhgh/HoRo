@@ -92,3 +92,45 @@ Hossein Ghaffary
 2.How do i solve it?
 3.how do i do it?
 /////////////////////////////////////
+
+
+11/10/2017
+
+Roberto Rubio
+1 What did i do since last Scrum?
+	add questions
+	registration
+	lists edit and delete
+2 What do i do now?
+	prepare for the project for the teacher
+3 where do i need help from my teacher and my teammate or internet?
+	i erase my projects from my netbeans so we can restat with al the new modifications, and nothing
+	is working we lost some important code
+ 
+1.What do i do about it?
+	not solved
+2.How do i solve it?
+3.how do i do it?
+
+
+
+Hossein Ghaffary
+
+11/10/2017
+
+1 What did i do since last Scrum?
+	add students
+	change some html code
+	redesign the database, table students, questions table
+2 What do i do now?
+	problem twig code shows in the browser
+	preparing the code for time
+3 where do i need help from my teacher and my teammate or internet?
+	
+	problem twig code shows in the browser
+ 
+1.What do i do about it?
+	not solved
+2.How do i solve it?
+3.how do i do it?
+/////////////////////////////////////
