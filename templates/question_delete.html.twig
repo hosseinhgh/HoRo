@@ -1,0 +1,24 @@
+{% extends "master.html.twig" %}
+
+{% block title %}Confirm delete{% endblock %}
+
+{% block content %}
+    <p><b>Are you sure you want to delete this question and its answer?</b></p>
+    <button onclick="window.location.href='/'">Cancel</button>
+    
+    <form method="post"  style="display: inline;">
+        <input type="hidden" name="confirmed" value="true">
+        <input type="submit" value="Delete">
+    </form>
+    <div>
+        <p> question: {{question.question}}</p>
+        <p> choice1: {{question.answer1}}</p>
+        <p> choice2: {{question.answer2}}</p>
+        <p> choice3: {{question.answer3}}</p>
+       
+        <p> correct answer: {{question.iscorrect}}</p>
+       
+    </div>
+
+
+{% endblock %}

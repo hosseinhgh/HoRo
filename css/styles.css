@@ -1,6 +1,6 @@
 body{
     font-family: arial;
-    font-size: 15px;
+    font-size: 12px;
     line-height: 1.5;
     padding: 0;
     margin: 0;
@@ -11,7 +11,7 @@ body{
 .container{
     width: 80%;
     margin: auto;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 ul{
@@ -28,19 +28,29 @@ label{
     display: inline-block;
     width: 180px;
 }
-input[type='text']{
-    width: 97%;
-    padding: 4px;
-    border-radius: 5px;
-    border:1px #ccc solid;
+input[type=text],input[type=email],input[type=password], select {
+
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
-.button1{
-    height: 38px;
-    background:#e8491d;
-    border: 0;
-    color: #ffffff;
-    padding-left: 20px;
-    padding-right: 20px;
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
 }
 
 .dark{
@@ -54,17 +64,18 @@ input[type='text']{
 /*header*/
 header{
     background: #666666;
-    color: #ffffff; 
+    color: #ffffff;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: #e8491d 3px solid;   
+    border-bottom: #e8491d 3px solid;
+    margin-bottom: 60px;
 }
 
 header a{
     color:#ffffff;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 
@@ -95,97 +106,63 @@ header nav{
 
 header .light, header .current a{
     color: #e8491d;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 header a:hover{
-    color: #cccccc;
+    color: #e8491d;
     font-weight: bold;
 }
 
-/*showcase*/
-#showcase{
-    min-height:400px;
-    background: url('../images/mainImage.jpg')no-repeat 0 -400px;
-    text-align: center;
-    color: #ffffff;
-}
-
-#showcase h1{
-    margin-top: 100px;
-    font-size: 55px;
-    margin-bottom: 10px;
-}
-
-#showcase p{
-    font-size: 20px;
-}
-
-#newsletter{
-    background: #666666;
-    padding: 15px;
-    color: #ffffff;
-}
-
-#newsletter h1{
+.dropdown {
     float: left;
+    overflow: hidden;
 }
 
-#newsletter form{
-    float: right;
-    margin-top: 15px;
+.dropdown .dropbtn {
+    font-size: 14px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
 }
 
-#newsletter input[type="email"]{
-    padding: 4px;
-    height: 25px;
-    width: 250px;
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #e8491d;
 }
 
-/*boxes*/
-#boxes{
-    margin-top:20px;
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
 
-#boxes .box{
-    float: left;
-    width: 30%;
-    padding: 10px;
-    text-align: center;
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
 }
 
-#boxes .box .img{
-    width: 80px;
+.dropdown-content a:hover {
+    background-color: #ddd;
 }
 
-aside#sideBar{
-    float: right;
-    width: 30%;
-    margin-top: 10px;
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
-article#mainCol{
-    float: left;
-    width: 65%;
-}
 
-/*services*/
-ul#services li{
-    list-style: none;
-    padding: 20px;
-    border: #cccccc solid 3px;
-    margin-bottom: 5px;
-    background: #e6e6e6;
-}
-
-aside#sidebar .quote input, aside#sidebar .quote textarea{
-    width:90%;
-    padding: 5px;
-}
 
 footer{
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 60px;
     background-color: #e8491d;
     color: #ffffff;
     text-align: center;
@@ -215,17 +192,19 @@ footer a:hover{
         text-align: center;
         width: 100%;
     }
-    
+
     header{
         padding-bottom:20px;
-        
+
     }
     #showcase h1{
-        margin-top:40px;
+        margin-top:20px;
     }
     #newsletter button, .quote button{
         display:block;
+        border-radius: 10px;
         width:100%;
+        font-size: 14px;
     }
     #newsletter form input[type="email"]{
         width:100%;
@@ -239,16 +218,8 @@ footer a:hover{
         width:100%;
         margin-bottom:5px;
     }
-    
-    #centeredContent {
-    margin: 0 auto;
-    padding: 20px 20px 20px 20px;
-    width: 400px; /* 960px */
-    background-color: white;        
-    }
-}
 
-#centeredContent {
+    #centeredContent {
     font-size: 22px;
     color: #ffffff;
     border-radius: 10px;
@@ -256,11 +227,17 @@ footer a:hover{
     margin: 0 auto;
     padding: 20px 20px 20px 20px;
     width: 60%;
-    background-color: #5F9EA0;        
+    
     }
-    
-    
-    
-    .roweven { background-color: bisque; }
-
-.rowodd { background-color: lightsalmon; }
+}
+#centeredContent {
+    font-size: 18px;
+    color: #666;
+    border-radius: 10px;
+    overflow: auto;
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+    width: 60%;
+    background: #fff;
+    font-family: LucidaGrande;
+    }

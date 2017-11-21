@@ -22,66 +22,111 @@ class __TwigTemplate_87a86df006dd2202e643b264156f3e573238b8b43873d89825885252259
         echo "<!DOCTYPE html>
 <html>
     <head>
-        <link href=\"./css/styles.css\" rel=\"stylesheet\">
+        <link href=\"../css/styles.css\" rel=\"stylesheet\">
         <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js\"></script>
         <meta charset=\"UTF-8\">
         <meta name=\"description\" content=\"test your knowledge\">
-        <meta name=\"author\" content=\"roberto rubio\">
+        <meta name=\"author\" content=\"roberto hossein\">
         <meta name=\"keywords\" content=\"test,online,affordable\">
         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
         <title>";
         // line 11
         $this->displayBlock('title', $context, $blocks);
         echo "</title>
-        ";
+    ";
         // line 12
         $this->displayBlock('headextra', $context, $blocks);
         // line 13
-        echo "    </head>
-    <body>
-        <header>
-            <div class=\"container\">
-                <div id=\"brand\">
-                    <img src=\"images/horoLogo.png\" alt=\"\" />
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href=\"index.php\">Home</a></li>
-                        <li><a href=\"/addSubject\">Services</a></li>
-                        <li><a href=\"about.php\">About</a></li>
-                        
-                    </ul>
-                </nav>
+        echo "</head>
+<body>
+    <header>
+        <div class=\"container\">
+            <div id=\"brand\">
+                <img src=\"images/horoLogo.png\" alt=\"\" />
             </div>
-        </header><!--end of header-->
-        <div id=\"centeredContent\">
-            ";
-        // line 31
+            <nav>
+                <ul>
+
+                    ";
+        // line 23
         if ((isset($context["userSession"]) ? $context["userSession"] : null)) {
-            // line 32
-            echo "                <p>You're logged in as ";
+            // line 24
+            echo "                        <li class=\"dropdown\">
+                            <a href=\"javascript:void(0)\" class=\"dropbtn\">Student</a>
+                            <div class=\"dropdown-content\">
+                                <a href=\"/student/add\">Add Student</a>
+                                <a href=\"/student/list\">List of Students</a>
+                            </div>
+                        </li>
+
+                        <li class=\"dropdown\">
+                            <a href=\"javascript:void(0)\" class=\"dropbtn\">Subject</a>
+                            <div class=\"dropdown-content\">
+                                <a href=\"/subject/add\">Add Subject</a>
+                                <a href=\"/subject/list\">List of Subject</a>
+                            </div>
+                        </li>
+                        
+                        <li class=\"dropdown\">
+                            <a href=\"javascript:void(0)\" class=\"dropbtn\">Questions</a>
+                            <div class=\"dropdown-content\">
+                                <a href=\"#\">Add Questions</a>
+                                <a href=\"#\">List of Questions</a>
+                            </div>
+                        </li>
+                        
+                        <li class=\"dropdown\">
+                            <a href=\"javascript:void(0)\" class=\"dropbtn\">Answers</a>
+                            <div class=\"dropdown-content\">
+                                <a href=\"/question/add\">Add Answers</a>
+                                <a href=\"/questions/list\">List of Answers</a>
+                            </div>
+                        </li>
+                        <li><a href=\"/logout\">Logout</a></li>
+                        ";
+        } else {
+            // line 57
+            echo "                        <li><a href=\"/login\">Login</a></li>
+                        <li><a href=\"/register\">Register</a></li>
+                        ";
+        }
+        // line 60
+        echo "
+                </ul>
+            </nav>
+        </div>
+    </header><!--end of header-->
+    <div id=\"centeredContent\">
+        ";
+        // line 66
+        if ((isset($context["userSession"]) ? $context["userSession"] : null)) {
+            // line 67
+            echo "            <p>You're logged in as ";
             echo twig_escape_filter($this->env, $this->getAttribute((isset($context["userSession"]) ? $context["userSession"] : null), "name", array()), "html", null, true);
             echo ".
-                    You may <a href=\"/logout\">logout</a></p>
+                You may <a href=\"/logout\">logout</a></p>
             ";
         } else {
-            // line 35
-            echo "                <p>You're not logged in. You may <a href=\"/register\">Register</a>
+            // line 70
+            echo "            <p>You're not logged in. You may <a href=\"/register\">Register</a>
                 or <a href=\"/login\">Login</a>.</p>
-            ";
+
+        ";
         }
-        // line 38
-        echo "                
-            ";
-        // line 39
+        // line 74
+        echo "
+    ";
+        // line 75
         $this->displayBlock('content', $context, $blocks);
-        // line 40
-        echo "        </div>
-        <footer>
-            <p>Created by <a href=\"#\">WebSpawn</a>, Copyright Online Examination &copy; 2017</p>
-        </footer>
-    </body>
-</html>";
+        // line 76
+        echo "</div>
+<footer>
+    <p>Created by <a href=\"#\">WebSpawn</a>, Copyright Online Examination &copy; 2017</p>
+
+</footer>
+</body>
+</html>
+";
     }
 
     // line 11
@@ -95,7 +140,7 @@ class __TwigTemplate_87a86df006dd2202e643b264156f3e573238b8b43873d89825885252259
     {
     }
 
-    // line 39
+    // line 75
     public function block_content($context, array $blocks = array())
     {
     }
@@ -112,7 +157,7 @@ class __TwigTemplate_87a86df006dd2202e643b264156f3e573238b8b43873d89825885252259
 
     public function getDebugInfo()
     {
-        return array (  99 => 39,  94 => 12,  88 => 11,  79 => 40,  77 => 39,  74 => 38,  69 => 35,  62 => 32,  60 => 31,  40 => 13,  38 => 12,  34 => 11,  22 => 1,);
+        return array (  144 => 75,  139 => 12,  133 => 11,  122 => 76,  120 => 75,  117 => 74,  111 => 70,  104 => 67,  102 => 66,  94 => 60,  89 => 57,  54 => 24,  52 => 23,  40 => 13,  38 => 12,  34 => 11,  22 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -128,47 +173,86 @@ class __TwigTemplate_87a86df006dd2202e643b264156f3e573238b8b43873d89825885252259
         return new Twig_Source("<!DOCTYPE html>
 <html>
     <head>
-        <link href=\"./css/styles.css\" rel=\"stylesheet\">
+        <link href=\"../css/styles.css\" rel=\"stylesheet\">
         <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js\"></script>
         <meta charset=\"UTF-8\">
         <meta name=\"description\" content=\"test your knowledge\">
-        <meta name=\"author\" content=\"roberto rubio\">
+        <meta name=\"author\" content=\"roberto hossein\">
         <meta name=\"keywords\" content=\"test,online,affordable\">
         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
         <title>{% block title %}Default{% endblock %}</title>
-        {% block headextra %}{% endblock %}
-    </head>
-    <body>
-        <header>
-            <div class=\"container\">
-                <div id=\"brand\">
-                    <img src=\"images/horoLogo.png\" alt=\"\" />
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href=\"index.php\">Home</a></li>
-                        <li><a href=\"/addSubject\">Services</a></li>
-                        <li><a href=\"about.php\">About</a></li>
-                        
-                    </ul>
-                </nav>
+    {% block headextra %}{% endblock %}
+</head>
+<body>
+    <header>
+        <div class=\"container\">
+            <div id=\"brand\">
+                <img src=\"images/horoLogo.png\" alt=\"\" />
             </div>
-        </header><!--end of header-->
-        <div id=\"centeredContent\">
-            {% if userSession %}
-                <p>You're logged in as {{ userSession.name }}.
-                    You may <a href=\"/logout\">logout</a></p>
-            {% else %}
-                <p>You're not logged in. You may <a href=\"/register\">Register</a>
-                or <a href=\"/login\">Login</a>.</p>
-            {% endif %}
-                
-            {% block content %}{% endblock %}
+            <nav>
+                <ul>
+
+                    {% if userSession %}
+                        <li class=\"dropdown\">
+                            <a href=\"javascript:void(0)\" class=\"dropbtn\">Student</a>
+                            <div class=\"dropdown-content\">
+                                <a href=\"/student/add\">Add Student</a>
+                                <a href=\"/student/list\">List of Students</a>
+                            </div>
+                        </li>
+
+                        <li class=\"dropdown\">
+                            <a href=\"javascript:void(0)\" class=\"dropbtn\">Subject</a>
+                            <div class=\"dropdown-content\">
+                                <a href=\"/subject/add\">Add Subject</a>
+                                <a href=\"/subject/list\">List of Subject</a>
+                            </div>
+                        </li>
+                        
+                        <li class=\"dropdown\">
+                            <a href=\"javascript:void(0)\" class=\"dropbtn\">Questions</a>
+                            <div class=\"dropdown-content\">
+                                <a href=\"#\">Add Questions</a>
+                                <a href=\"#\">List of Questions</a>
+                            </div>
+                        </li>
+                        
+                        <li class=\"dropdown\">
+                            <a href=\"javascript:void(0)\" class=\"dropbtn\">Answers</a>
+                            <div class=\"dropdown-content\">
+                                <a href=\"/question/add\">Add Answers</a>
+                                <a href=\"/questions/list\">List of Answers</a>
+                            </div>
+                        </li>
+                        <li><a href=\"/logout\">Logout</a></li>
+                        {% else %}
+                        <li><a href=\"/login\">Login</a></li>
+                        <li><a href=\"/register\">Register</a></li>
+                        {% endif %}
+
+                </ul>
+            </nav>
         </div>
-        <footer>
-            <p>Created by <a href=\"#\">WebSpawn</a>, Copyright Online Examination &copy; 2017</p>
-        </footer>
-    </body>
-</html>", "master.html.twig", "C:\\xampp\\htdocs\\slimTodo\\templates\\master.html.twig");
+    </header><!--end of header-->
+    <div id=\"centeredContent\">
+        {% if userSession %}
+            <p>You're logged in as {{ userSession.name }}.
+                You may <a href=\"/logout\">logout</a></p>
+            {% else %}
+            <p>You're not logged in. You may <a href=\"/register\">Register</a>
+                or <a href=\"/login\">Login</a>.</p>
+
+        {% endif %}
+
+    {% block content %}{% endblock %}
+</div>
+<footer>
+    <p>Created by <a href=\"#\">WebSpawn</a>, Copyright Online Examination &copy; 2017</p>
+
+</footer>
+</body>
+</html>
+{# empty Twig template #}
+", "master.html.twig", "C:\\xampp\\htdocs\\horo\\templates\\master.html.twig");
     }
 }

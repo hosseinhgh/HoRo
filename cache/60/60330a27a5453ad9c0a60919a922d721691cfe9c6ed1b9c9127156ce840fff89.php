@@ -43,10 +43,14 @@ class __TwigTemplate_3fcd2ffa7ce8d183f52ff72e39155077eb20417b958de82a602bdbe789c
         }
         // line 9
         echo "
+    
     <form method=\"post\">
-        email:<input type=\"email\" name=\"email\"><br>
-        password:<input type=\"password\" name=\"pass\"><br>
-        <input type=\"submit\" value=\"Login\">
+        <label for=\"email\">email :</label>
+        <input type=\"email\" name=\"email\" placeholder=\"Your email..\"><br>
+        
+        <label for=\"password\">password :</label>
+        <input type=\"password\" name=\"pass\" placeholder=\"Your password..\"><br>
+        <input type=\"submit\" value=\"Login\" >
     </form>
 
 ";
@@ -86,12 +90,16 @@ class __TwigTemplate_3fcd2ffa7ce8d183f52ff72e39155077eb20417b958de82a602bdbe789c
         <p>Login invalid. Try again or <a href=\"/register\">register</a>.</p>
     {% endif %}
 
+    
     <form method=\"post\">
-        email:<input type=\"email\" name=\"email\"><br>
-        password:<input type=\"password\" name=\"pass\"><br>
-        <input type=\"submit\" value=\"Login\">
+        <label for=\"email\">email :</label>
+        <input type=\"email\" name=\"email\" placeholder=\"Your email..\"><br>
+        
+        <label for=\"password\">password :</label>
+        <input type=\"password\" name=\"pass\" placeholder=\"Your password..\"><br>
+        <input type=\"submit\" value=\"Login\" >
     </form>
 
-{% endblock %}", "login.html.twig", "C:\\xampp\\htdocs\\slimTodo\\templates\\login.html.twig");
+{% endblock %}", "login.html.twig", "C:\\xampp\\htdocs\\horo\\templates\\login.html.twig");
     }
 }

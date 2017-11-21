@@ -1,0 +1,29 @@
+{% extends "master.html.twig" %}
+
+{% block title %}Add question{% endblock %}
+
+{% block content %}
+    <form method="post" enctype="multipart/form-data">
+        <label for="question"> question :</label>
+        <input type="text" name="question" value="{{v.question}}" placeholder="question.."><br>
+        
+        <label for="answer1">choice1 :</label>
+        <input type="text" name="answer1" value="{{v.answer1}}" placeholder="answer1.."><br>
+        
+        <label for="answer2">choice2 :</label>
+        <input type="text" name="answer2" value="{{v.answer2}}" placeholder="answer2.."><br>
+        
+        <label for="answer3">choice3 :</label>
+        <input type="text" name="answer3" value="{{v.answer3}}" placeholder="answer3.."><br>
+        
+        
+        
+        <label for="iscorrect">correct answer number :</label>
+        <input type="text" name="iscorrect" value="{{v.iscorrect}}" placeholder="iscorrect.."><br>
+        
+        
+        
+        
+        <input type="submit" value="add question">
+    </form>
+{% endblock %}

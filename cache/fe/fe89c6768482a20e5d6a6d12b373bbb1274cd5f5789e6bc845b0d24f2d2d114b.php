@@ -28,7 +28,7 @@ class __TwigTemplate_5ade8803024902265c60f027c0136f118aefc19a72ca24df8fe33ec51a3
     // line 3
     public function block_title($context, array $blocks = array())
     {
-        echo "Login successful";
+        echo "Login Successful";
     }
 
     // line 5
@@ -36,7 +36,7 @@ class __TwigTemplate_5ade8803024902265c60f027c0136f118aefc19a72ca24df8fe33ec51a3
     {
         // line 6
         echo "
-    <p>Login successful, <a href=\"/\">click to continue</a>.</p>
+    <p>Login Successful, <a href=\"/\">click to continue</a>.</p>
 
 ";
     }
@@ -68,12 +68,12 @@ class __TwigTemplate_5ade8803024902265c60f027c0136f118aefc19a72ca24df8fe33ec51a3
     {
         return new Twig_Source("{% extends \"master.html.twig\" %}
 
-{% block title %}Login successful{% endblock %}
+{% block title %}Login Successful{% endblock %}
 
 {% block content %}
 
-    <p>Login successful, <a href=\"/\">click to continue</a>.</p>
+    <p>Login Successful, <a href=\"/\">click to continue</a>.</p>
 
-{% endblock %}", "login_success.html.twig", "C:\\xampp\\htdocs\\slimTodo\\templates\\login_success.html.twig");
+{% endblock %}", "login_success.html.twig", "C:\\xampp\\htdocs\\horo\\templates\\login_success.html.twig");
     }
 }

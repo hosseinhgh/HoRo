@@ -25,10 +25,17 @@
     {% endif %}
 
     <form method="post">
-        Name: <input type="text" name="name" value="{{v.name}}"><br>
-        Email: <input type="email" name="email" value="{{v.email}}"><span id="isTaken"></span><br>
-        Password: <input type="password" name="pass1"><br>
-        Password (repeated): <input type="password" name="pass2"><br>
+        <label for="name">Name :</label>
+        <input type="text" name="name" value="{{v.name}}" placeholder="Enter name.."><br>
+        
+        <label for="email">Email :</label>
+        <input type="email" name="email" value="{{v.email}}" placeholder="Enter email.."><span id="isTaken"></span><br>
+        
+        <label for="password">Password :</label>
+        <input type="password" name="pass1" placeholder="Enter password.."><br>
+        
+        <label for="passwordrepeated">Password (repeated) :</label>
+        <input type="password" name="pass2" placeholder="Enter Password.."><br>
         <input type="submit" value="Register">
     </form>
 

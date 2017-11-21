@@ -1,0 +1,16 @@
+{% extends "master.html.twig" %}
+
+{% block title %}Add Subject{% endblock %}
+
+{% block content %}
+    <form method="post" enctype="multipart/form-data">
+        <label for="name">Name :</label>
+        <input type="text" name="name" value="{{v.name}}" placeholder="name.."><br>
+        
+        <label for="description">Description :</label>
+        <input type="text" name="description" value="{{v.description}}" placeholder="description.."><br>
+        
+        
+        <input type="submit" value="add subject">
+    </form>
+{% endblock %}

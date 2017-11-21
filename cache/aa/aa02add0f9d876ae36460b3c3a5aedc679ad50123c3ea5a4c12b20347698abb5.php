@@ -71,6 +71,6 @@ class __TwigTemplate_d8e689d7e3d1ff603e948ff45d7e270b5e1b17cb63c7e7e6a338037012b
 {% block content %}
 <p>You've been registered. You may now <a href=\"/login\">login</a>.
 {% endblock %}
-", "register_success.html.twig", "C:\\xampp\\htdocs\\slimTodo\\templates\\register_success.html.twig");
+", "register_success.html.twig", "C:\\xampp\\htdocs\\horo\\templates\\register_success.html.twig");
     }
 }

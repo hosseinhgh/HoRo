@@ -1,0 +1,24 @@
+{% extends "master.html.twig" %}
+
+{% block title %}Add Student{% endblock %}
+
+{% block content %}
+    <form method="post" enctype="multipart/form-data">
+        <label for="fname">first name :</label>
+        <input type="text" name="firstName" value="{{v.firstName}}" placeholder="first name.."><br>
+        
+        <label for="lname">last name :</label>
+        <input type="text" name="lastName" value="{{v.lastName}}" placeholder="last name.."><br>
+        
+        <label for="email">email :</label>
+        <input type="email" name="email" value="{{v.email}}" placeholder="email.."><br>
+        
+        <label for="image">image :</label>
+        <input type="file" name="image"><br>
+        
+        {% if v.imagePath %}
+            <img width="70" src="/{{v.imagePath}}">
+        {% endif %}
+        <input type="submit" value="add student">
+    </form>
+{% endblock %}

@@ -135,7 +135,7 @@ Hossein Ghaffary
 3.how do i do it?
 /////////////////////////////////////
 
-11/113/2017
+11/13/2017
 
 Roberto Rubio
 1 What did i do since last Scrum?
@@ -174,3 +174,204 @@ Hossein Ghaffary
 	not solved
 2.How do i solve it?
 3.how do i do it?
+
+/////////////////////////////////////
+
+11/14/2017
+
+Roberto Rubio
+1 What did i do since last Scrum?
+	studing JAVA
+2 What do i do now?
+	
+3 where do i need help from my teacher and my teammate or internet?
+	
+ 
+1.What do i do about it?
+	
+2.How do i solve it?
+3.how do i do it?
+
+
+
+Hossein Ghaffary
+
+11/14/2017
+
+1 What did i do since last Scrum?
+	
+	studing JAVA
+	
+2 What do i do now?
+	
+	
+3 where do i need help from my teacher and my teammate or internet?
+	
+	
+ 
+1.What do i do about it?
+	
+2.How do i solve it?
+3.how do i do it?
+
+/////////////////////////////////////
+
+11/16/2017
+
+Roberto Rubio
+1 What did i do since last Scrum?
+	work on the reset password
+2 What do i do now?
+	
+3 where do i need help from my teacher and my teammate or internet?
+	
+ 
+1.What do i do about it?
+	
+2.How do i solve it?
+3.how do i do it?
+
+
+
+Hossein Ghaffary
+
+11/16/2017
+
+1 What did i do since last Scrum?
+	
+	work on the java script
+	
+2 What do i do now?
+	
+	
+3 where do i need help from my teacher and my teammate or internet?
+	
+	
+ 
+1.What do i do about it?
+	
+2.How do i solve it?
+3.how do i do it?
+
+
+/////////////////////////////////////
+
+11/17/2017
+
+Roberto Rubio
+1 What did i do since last Scrum?
+	work on the url and php code for the student and teacher and subjects
+2 What do i do now?
+	
+3 where do i need help from my teacher and my teammate or internet?
+	
+ 
+1.What do i do about it?
+	
+2.How do i solve it?
+3.how do i do it?
+
+
+
+Hossein Ghaffary
+
+11/17/2017
+
+1 What did i do since last Scrum?
+	
+	redesign database with connection
+
+        rewrite php classes for student and subjects and teachers with new url
+	
+2 What do i do now?
+	
+	
+3 where do i need help from my teacher and my teammate or internet?
+	
+	
+ 
+1.What do i do about it?
+	
+2.How do i solve it?
+3.how do i do it?
+
+
+11/18/2017
+
+Roberto Rubio
+1 What did i do since last Scrum?
+	try to create the exam php page
+2 What do i do now?
+	
+3 where do i need help from my teacher and my teammate or internet?
+	
+ 
+1.What do i do about it?
+	
+2.How do i solve it?
+3.how do i do it?
+
+
+
+Hossein Ghaffary
+
+11/18/2017
+
+1 What did i do since last Scrum?
+	
+	try to design correct php p age
+
+prepare presentation
+	
+2 What do i do now?
+	
+	
+3 where do i need help from my teacher and my teammate or internet?
+	
+	
+ 
+1.What do i do about it?
+	
+2.How do i solve it?
+3.how do i do it?
+
+
+11/19/2017
+
+Roberto Rubio
+1 What did i do since last Scrum?
+	correct errors
+2 What do i do now?
+	
+3 where do i need help from my teacher and my teammate or internet?
+	
+ 
+1.What do i do about it?
+	
+2.How do i solve it?
+3.how do i do it?
+
+
+
+Hossein Ghaffary
+
+11/19/2017
+
+1 What did i do since last Scrum?
+	
+	correct errors
+
+prepare presentation
+	
+2 What do i do now?
+	
+	
+3 where do i need help from my teacher and my teammate or internet?
+	
+	
+ 
+1.What do i do about it?
+	
+2.How do i solve it?
+3.how do i do it?
+

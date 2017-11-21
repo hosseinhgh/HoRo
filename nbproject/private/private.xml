@@ -2,18 +2,10 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-<<<<<<< HEAD
-        <group/>
-=======
         <group>
-            <file>file:/C:/xampp/htdocs/slimTodo/templates/master.html.twig</file>
-            <file>file:/C:/xampp/htdocs/slimTodo/templates/register.html.twig</file>
-            <file>file:/C:/xampp/htdocs/slimTodo/templates/login.html.twig</file>
-            <file>file:/C:/xampp/htdocs/slimTodo/slimTodo.php</file>
-            <file>file:/C:/xampp/htdocs/slimTodo/index.php</file>
-            <file>file:/C:/xampp/htdocs/slimTodo/css/styles.css</file>
-            <file>file:/C:/xampp/htdocs/slimTodo/services.php</file>
+            <file>file:/C:/xampp/htdocs/quizeProjectLatest/templates/.htaccess</file>
+            <file>file:/C:/xampp/htdocs/quizeProjectLatest/horo.php</file>
+            <file>file:/C:/xampp/htdocs/quizeProjectLatest/templates/master.html.twig</file>
         </group>
->>>>>>> 0766e2679200f45bdcf288fc46a023d461d985cf
     </open-files>
 </project-private>

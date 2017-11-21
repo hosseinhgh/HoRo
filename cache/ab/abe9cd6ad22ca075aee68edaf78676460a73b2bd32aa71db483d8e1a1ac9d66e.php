@@ -83,6 +83,6 @@ class __TwigTemplate_aa13873466095688ec81116bf493853aa3ebad005a85b562f96bcf4959c
 <img src=\"/images/ninja.png\">
 
 {% endblock %}
-", "error_internal.html.twig", "C:\\xampp\\htdocs\\slimTodo\\templates\\error_internal.html.twig");
+", "error_internal.html.twig", "C:\\xampp\\htdocs\\horo\\templates\\error_internal.html.twig");
     }
 }

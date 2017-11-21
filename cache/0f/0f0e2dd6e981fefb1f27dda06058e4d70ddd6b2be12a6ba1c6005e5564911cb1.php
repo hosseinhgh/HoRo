@@ -70,6 +70,6 @@ class __TwigTemplate_1075b5c98becc9eb1e9fc80be5c3dc54ee24b669daf3a30193bd3632837
 
 {% block content %}
     <p>You've been logged out, <a href=\"/\">click to continue</a>.</p>
-{% endblock %}", "logout.html.twig", "C:\\xampp\\htdocs\\slimTodo\\templates\\logout.html.twig");
+{% endblock %}", "logout.html.twig", "C:\\xampp\\htdocs\\horo\\templates\\logout.html.twig");
     }
 }

@@ -1,0 +1,50 @@
+{% extends "master.html.twig" %}
+
+{% block title %}Question List{% endblock %}
+
+{% block content %}
+    {% if userSession %}
+        <table>
+
+            <tr>
+                <th>#</th>
+                <th>question</th>
+                <th>a1</th>
+                <th>a2</th>
+                <th>a3</th>
+                
+                <th>correct answer</th>
+                
+                <th>ACTION</th>
+            </tr>
+
+            {% for t in questionsList %}
+                <tr>
+                    <td>{{loop.index}}</td>
+                    <td>{{t.question}}</td>
+                    <td>{{t.answer1}}</td>
+                    <td>{{t.answer2}}</td>
+                    <td>{{t.answer3}}</td>
+                    
+                    <td>{{t.iscorrect}}</td>
+                    
+                    <td>
+                        <a href="/question/edit/{{t.id}}">EDIT</a>
+                        <a href="/question/delete/{{t.id}}">DELETE</a>
+                    </td>
+
+                </tr>
+            {% endfor %}
+
+        </table>
+
+        <div class="paginationContainer">
+            {% for page in range(1,maxPages) %}
+                <a href="/questions/{{page}}">{{page}}</a> 
+            {% endfor %}
+        </div>
+
+    {% else %}
+        <p>you must register or login to view data</p>
+    {% endif %}
+{% endblock %}

@@ -78,16 +78,23 @@ class __TwigTemplate_bad9f3f9ef7bb6cc18cfd77633e467e37a8c076747f1d37693fa4259450
         // line 26
         echo "
     <form method=\"post\">
-        Name: <input type=\"text\" name=\"name\" value=\"";
-        // line 28
-        echo twig_escape_filter($this->env, $this->getAttribute((isset($context["v"]) ? $context["v"] : null), "name", array()), "html", null, true);
-        echo "\"><br>
-        Email: <input type=\"email\" name=\"email\" value=\"";
+        <label for=\"name\">Name :</label>
+        <input type=\"text\" name=\"name\" value=\"";
         // line 29
+        echo twig_escape_filter($this->env, $this->getAttribute((isset($context["v"]) ? $context["v"] : null), "name", array()), "html", null, true);
+        echo "\" placeholder=\"Enter name..\"><br>
+        
+        <label for=\"email\">Email :</label>
+        <input type=\"email\" name=\"email\" value=\"";
+        // line 32
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["v"]) ? $context["v"] : null), "email", array()), "html", null, true);
-        echo "\"><span id=\"isTaken\"></span><br>
-        Password: <input type=\"password\" name=\"pass1\"><br>
-        Password (repeated): <input type=\"password\" name=\"pass2\"><br>
+        echo "\" placeholder=\"Enter email..\"><span id=\"isTaken\"></span><br>
+        
+        <label for=\"password\">Password :</label>
+        <input type=\"password\" name=\"pass1\" placeholder=\"Enter password..\"><br>
+        
+        <label for=\"passwordrepeated\">Password (repeated) :</label>
+        <input type=\"password\" name=\"pass2\" placeholder=\"Enter Password..\"><br>
         <input type=\"submit\" value=\"Register\">
     </form>
 
@@ -106,7 +113,7 @@ class __TwigTemplate_bad9f3f9ef7bb6cc18cfd77633e467e37a8c076747f1d37693fa4259450
 
     public function getDebugInfo()
     {
-        return array (  87 => 29,  83 => 28,  79 => 26,  75 => 24,  66 => 22,  62 => 21,  59 => 20,  56 => 19,  53 => 18,  39 => 6,  36 => 5,  30 => 3,  11 => 1,);
+        return array (  90 => 32,  84 => 29,  79 => 26,  75 => 24,  66 => 22,  62 => 21,  59 => 20,  56 => 19,  53 => 18,  39 => 6,  36 => 5,  30 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -146,13 +153,20 @@ class __TwigTemplate_bad9f3f9ef7bb6cc18cfd77633e467e37a8c076747f1d37693fa4259450
     {% endif %}
 
     <form method=\"post\">
-        Name: <input type=\"text\" name=\"name\" value=\"{{v.name}}\"><br>
-        Email: <input type=\"email\" name=\"email\" value=\"{{v.email}}\"><span id=\"isTaken\"></span><br>
-        Password: <input type=\"password\" name=\"pass1\"><br>
-        Password (repeated): <input type=\"password\" name=\"pass2\"><br>
+        <label for=\"name\">Name :</label>
+        <input type=\"text\" name=\"name\" value=\"{{v.name}}\" placeholder=\"Enter name..\"><br>
+        
+        <label for=\"email\">Email :</label>
+        <input type=\"email\" name=\"email\" value=\"{{v.email}}\" placeholder=\"Enter email..\"><span id=\"isTaken\"></span><br>
+        
+        <label for=\"password\">Password :</label>
+        <input type=\"password\" name=\"pass1\" placeholder=\"Enter password..\"><br>
+        
+        <label for=\"passwordrepeated\">Password (repeated) :</label>
+        <input type=\"password\" name=\"pass2\" placeholder=\"Enter Password..\"><br>
         <input type=\"submit\" value=\"Register\">
     </form>
 
-{% endblock %}", "register.html.twig", "C:\\xampp\\htdocs\\slimTodo\\templates\\register.html.twig");
+{% endblock %}", "register.html.twig", "C:\\xampp\\htdocs\\horo\\templates\\register.html.twig");
     }
 }
